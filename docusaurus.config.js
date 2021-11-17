@@ -55,7 +55,7 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'right',
-            label: 'Notes',
+            label: 'Tech Notes',
           },
           { to: '/blog', label: 'Blog', position: 'right' },
           {
@@ -84,6 +84,10 @@ const config = {
                 label: 'Facebook',
                 href: 'https://www.facebook.com/isaac.0625/',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/isaac-kwok-026b2a184/'
+              }
             ],
           },
           {
