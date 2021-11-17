@@ -10,7 +10,7 @@ const config = {
   tagline: '你的 Web 開發食譜',
   url: 'https://webcipe.dev',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'isaackwok', // Usually your GitHub org/user name.
@@ -26,13 +26,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/isaackwok/isaackwok.github.io',
+          editUrl: 'https://github.com/isaackwok/webcipe/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/isaackwok/isaackwok.github.io',
+            'https://github.com/isaackwok/webcipe/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,11 +69,32 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Notes',
+            title: 'Tech Notes',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'React',
+                to: '/docs/react',
+              },
+              {
+                label: 'Next.js',
+                to: '/docs/nextjs',
+              },
+              {
+                label: 'Python',
+                to: '/docs/python',
+              },
+            ],
+          },
+          {
+            title: 'Projects',
+            items: [
+              {
+                label: 'Linggle',
+                to: 'https://linggle.com',
+              },
+              {
+                label: 'eWriting | NCHU',
+                to: 'https://ewriting.nchu.edu.tw',
               },
             ],
           },
@@ -104,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Webcipe by Isaac Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Webcipe by Isaac. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
