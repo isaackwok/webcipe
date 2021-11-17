@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Webcipe',
-  tagline: '你的 Web 開發食譜',
+  tagline: 'Web 開發食譜',
   url: 'https://webcipe.dev',
   baseUrl: '/',
   onBrokenLinks: 'warn',
@@ -45,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Webcipe | 你的 Web 開發食譜',
+        title: 'Webcipe | Web 開發食譜',
         logo: {
           alt: 'Webcipe',
           src: 'img/favicon.ico',
