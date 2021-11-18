@@ -44,6 +44,9 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      googleAnalytics: {
+        trackingID: 'G-EKQYY30LHM',
+      },
       navbar: {
         title: 'Webcipe | Web 開發食譜',
         logo: {
