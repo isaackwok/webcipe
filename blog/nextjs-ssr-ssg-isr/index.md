@@ -13,7 +13,7 @@ tags:
 ---
 
 ## 前言
-**React** 是一個前端框架，它的特點是使用 Virtual DOM 來減少對 DOM Object 的頻繁操作，以及採用 SPA 的渲染方式。
+**React** 是一個前端框架，它的特點是使用 Virtual DOM 來減少對 DOM 的頻繁操作，以及採用 SPA 的渲染方式。
 SPA 雖然有許多優點，但它仍存在不少問題。
 
 在這篇文章，我們一起來看看 **Next.js** 提供了怎麼樣的解決方案，來解決 Plain React Application 會遇到的問題。
