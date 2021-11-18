@@ -86,7 +86,7 @@ ISR 是 SSG 的進階版，它與 SSG 一樣會在 build time 預先產生靜態
 
 * 如果頁面需要永遠都保持最新的話，例如 `Dashboard`、`User Profile` ...，使用 SSR。
 * 如果頁面內容變動不大，很久才需要變動一次，例如 `Privacy Policy`，使用 SSG。
-* 如果頁面內容變動不大，但希望會定期更新的話，例如 `Blog`、`Products`，使用ISR。
+* 如果頁面內容變動不大，但希望會定期更新的話，例如 `Blog`、`Products`，使用 ISR。
 
 很多人在談論 Next.js 的時候都只會聯想到 SSR，但其實 Next.js 在 render 的策略上是混合式 (hybrid) 的，而它能做的事情遠比 SSR 還要更多，它甚至能讓你架 API、無痛部署你的網頁到 Vercel 上。
 
