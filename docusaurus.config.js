@@ -16,7 +16,7 @@ const config = {
   organizationName: 'isaackwok', // Usually your GitHub org/user name.
   projectName: 'isaackwok.github.io', // Usually your repo name.
   trailingSlash: false,
-  deploymentBranch: 'main',
+  deploymentBranch: 'gh-pages',
 
   presets: [
     [
@@ -26,13 +26,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/isaackwok/webcipe/tree/main',
+          editUrl: 'https://github.com/isaackwok/isaackwok.github.io/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/isaackwok/webcipe/tree/main',
+            'https://github.com/isaackwok/isaackwok.github.io/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
